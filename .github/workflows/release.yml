@@ -27,7 +27,7 @@ jobs:
           release_url: ${{ steps.create_release.outputs.url }}
           artefacts_readme: README.md
           artefacts_requirements: docs/requirements.md
-          artefacts_testing: tests/
+          artefacts_testing: tests/file_1, tests/file_2
           artefacts_documentation: docs/getting_started/
           artefacts_coding_guidelines: docs/coding_guidelines.md
           artefacts_release_process: https://example.org/my_release_process/
