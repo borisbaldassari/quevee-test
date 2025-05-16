@@ -25,12 +25,12 @@ jobs:
         id: quevee
         with:
           release_url: ${{ steps.create_release.outputs.url }}
-          artefacts_readme: README.md
-          artefacts_requirements: docs/requirements.md
-          artefacts_testing: tests/file_1, tests/file_2
-          artefacts_documentation: docs/getting_started/
-          artefacts_coding_guidelines: docs/coding_guidelines.md
-          artefacts_release_process: https://example.org/my_release_process/
+          artifacts_readme: README.md
+          artifacts_requirements: docs/requirements.md
+          artifacts_testing: tests/file_1, tests/file_2
+          artifacts_documentation: docs/getting_started/
+          artifacts_coding_guidelines: docs/coding_guidelines.md
+          artifacts_release_process: https://example.org/my_release_process/
       - name: Upload quality manifest to release
         uses: svenstaro/upload-release-action@v2
         id: upload_manifest
