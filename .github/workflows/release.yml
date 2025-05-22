@@ -21,7 +21,7 @@ jobs:
           echo ${{ steps.create_release.outputs.url }}
       # Do the quality artifact collection thing
       - name: Collect quality artifacts
-        uses: borisbaldassari/quevee@main
+        uses: eclipse-dash/quevee@v1
         id: quevee
         with:
           release_url: ${{ steps.create_release.outputs.url }}
