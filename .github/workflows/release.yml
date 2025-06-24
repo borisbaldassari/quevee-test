@@ -28,7 +28,7 @@ jobs:
           artifacts_readme: README.md
           artifacts_requirements: docs/requirements.md
           artifacts_testing: tests/file_1, tests/file_2
-          artifacts_documentation: docs/getting_started/
+          artifacts_documentation: 
           artifacts_coding_guidelines: docs/coding_guidelines.md
           artifacts_release_process: https://example.org/my_release_process/
       - name: Upload quality manifest to release
